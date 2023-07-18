@@ -37,4 +37,4 @@ $ cd html-css-js-oficina-01
 
 ---
 
-Made with :heart: by Luiz Paulo :wave: [Get in touch!](https://www.linkedin.com/in/luizpaulogroup/)
+Made with :heart: by Pedro Augusto Vessoni Bastos :wave: [Get in touch!](https://www.linkedin.com/in/pedro-augusto-vessoni-bastos-699282266/)
