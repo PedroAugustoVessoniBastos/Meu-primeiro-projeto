@@ -1,0 +1,114 @@
+body {
+    background-color: #141414;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.series-type-title {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 2px;
+    border: solid 2px #000;
+    width: 250px;
+    height: 500px;
+    transition: 0.80s ease-in-out;
+    box-shadow: 0px 0px 99px 9px #000;
+}
+
+.card:hover {
+    z-index: 99;
+    -webkit-transform: scale(1.080);
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.card-clicked {
+    border: solid 2px #6CD854;
+}
+
+.card:not(.card-clicked) {
+    animation: cardsNotClicked linear 2s infinite alternate;
+}
+
+.no-text-card-clicked {
+    color: #F01 !important;
+}
+
+.text-card-clicked {
+    color: #6CD854 !important;
+}
+
+.text-card-clicked p {
+    color: #FFF !important;
+    margin: 0;
+}
+
+@keyframes cardsNotClicked {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+.text-cards-clicked {
+    margin-top: 100px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#owner {
+    margin-top: 100px;
+    text-align: center;
+    color: #D3D3D3;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#owner a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #141414;
+}
